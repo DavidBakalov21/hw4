@@ -1,0 +1,443 @@
+
+
+
+
+
+
+.NotifyBtn{
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 20px;
+    font-size: 11px;
+    color: blue;
+}
+.dotedSqr{
+    width: 5%;
+    
+    height: 60px;
+    border: medium dashed green;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -0.5%;
+  
+}
+.image{
+    width:200%;
+    height:50%;
+    margin-left: -100%;
+    margin-top: -4%;
+
+}
+
+
+.H1Text1{
+    text-align: center;
+     margin-top: 13%;
+}
+.pText1{
+    text-align: center;
+}
+.cont{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.contLast{
+    
+    display: flex;
+   
+   
+}
+
+
+.DropDownItem{
+    border: 3px solid black;
+    width: 30%; 
+    border-radius: 10px;
+    padding: 1%;
+    background-color: beige;
+}
+.DropDown{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+
+
+
+
+.inputTextLast{
+    width:100%;
+    border: 3px solid blue;
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+.SearchBtnLast{
+   position: absolute;
+   height: 40px;
+    width: 5%;
+    background-color: blue;
+    border: 3px solid blue;   
+    border-radius: 30px;
+    right: 22%
+   
+    
+}
+
+
+
+
+
+
+
+.inputText{
+    height: 40px;
+    width: 45%;
+    border: 3px solid blue;
+    
+    border-radius: 30px;
+}
+
+
+.SearchBtn{
+   position: absolute;
+    right: 27%;
+    background-color: blue;
+    border: 3px solid blue;   
+    border-radius: 30px;
+    font-size: 100%;
+    height: 5.1%;
+    width: 20%;
+    
+}
+.ContCard{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.Card{
+   border-radius: 10%;
+background-color: wheat;
+}
+.imageCOnt{
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+
+.ContainerL{
+    display: flex;
+   
+    margin-top: 3%;
+    justify-content: center;
+}
+.textBox2{
+    display: flex;  
+    justify-content: space-between;
+   
+ padding-top: 5%;
+ padding-bottom: 5%;
+ align-items: center;
+}
+
+.textBox{
+    display: flex;  
+    justify-content: space-between;
+    border-bottom: 2px solid #000; 
+ padding-top: 5%;
+ padding-bottom: 5%;
+ align-items: center;
+}
+.ContCol{
+    flex-direction:column;
+}
+.BoxOuter{
+    border-bottom: 2px solid #000; 
+}
+
+
+.ThreeImages{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ThreeIMG{
+    width:13%;
+    height:7%;
+}
+.purpleSqr{
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    
+    margin-top: -4%;
+    flex-direction:column;
+    justify-content: center;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    background-color: purple;
+}
+
+
+.LastRow{
+    display: flex;  
+    flex-direction:row;
+    justify-content: center;
+}
+.Column1{
+    margin-left: 10%;
+    display: block
+   
+   
+}
+
+
+.Column2{
+    margin-left: 5%;
+    display: block
+   
+   
+}
+
+
+
+.SearchBtn2{
+   
+    height: 48px;
+    background-color: blue;
+    border: 3px solid blue;   
+    border-radius: 30px;
+    font-size: 20px;
+   
+    
+}
+
+.ROWW{
+    display: flex;  
+    flex-direction:row;
+    justify-content: center 
+}
+
+.ROWW2{
+    display: flex;  
+    flex-direction:row;
+    
+}
+
+.TextEnd{
+    margin-top: 5%;
+}
+.TextEnd2{
+    margin-top: 20%;
+}
+.TextEnd3{
+    margin-top: 20%;
+}
+.IconRow{
+    display: none;
+}
+.LowWidthNone{
+background-color: purple;
+}
+
+
+.Togg{
+
+visibility:visible
+}
+
+.Togg2{
+    visibility:hidden
+}
+
+
+@media screen and (max-width: 1000px) {
+    .Togg{
+        visibility:hidden
+        }
+        
+        .Togg2{
+            visibility:visible
+           
+        }  
+}
+
+
+.inputText:focus{
+           
+    outline: none;
+    
+    border-color: blue;
+}
+.inputTextLast:focus{
+           
+    outline: none;
+    
+    border-color: blue;
+}
+@media screen and (max-width: 380px) {
+  .pText1{
+    font-size: 80%;
+  }
+
+    .Togg{
+        visibility:hidden
+        }
+        
+        .Togg2{
+            visibility:visible
+           
+        }  
+        .inputText{
+            height: 40px;
+            width: 77%;
+            border: 3px solid blue;
+            
+            border-radius: 30px;
+        }
+        
+        .inputText:focus{
+           
+            outline: none;
+            
+            border-color: blue;
+        }
+        .inputTextLast:focus{
+           
+            outline: none;
+            
+            border-color: blue;
+        }
+        .SearchBtn{
+           position: absolute;
+            right: 11.5%;
+            background-color: blue;
+            border: 3px solid blue;   
+            border-radius: 30px;
+            font-size: 100%;
+            height: 5.6%;
+            width: 20%;
+            
+        }
+
+
+
+        .inputTextLast{
+            width:100%;
+            border: 3px solid blue;
+            height: 40px;
+            border-radius: 30px;
+        }
+        
+        
+        .SearchBtnLast{
+           position: absolute;
+           height: 40px;
+            width: 25%;
+            background-color: blue;
+            border: 3px solid blue;   
+            border-radius: 30px;
+            right: 0.5%
+           
+            
+        }
+
+
+
+
+    .ContCard{
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .Card{
+        margin-top: 5%;
+        border-radius: 10%;
+     background-color: wheat;
+     }
+
+     .H1Text1{
+        text-align: center;
+         margin-top: 13%;
+         font-size: 24px;
+    }
+    .CanNot{
+        font-size: 11px;  
+    }
+    .LookingFor{
+        font-size: 11px;  
+    }
+
+    .LastRow{
+        display: flex;  
+        flex-direction:column;
+        justify-content: center;
+    }
+    .ROWW2{
+        display: flex;  
+        flex-direction:column-reverse;
+        justify-content: center;
+
+    }
+
+    .TextEnd{
+        margin-top: 3%;
+    }
+    .TextEnd3{
+        margin-top: 3%;
+    }
+    .TextEnd2{
+     
+        display: none;
+    }
+
+
+    .Column1{
+       
+        display: block
+       
+       
+    }
+    
+    
+    .Column2{
+        margin-left: 3%;
+        display: block
+       
+       
+    }
+  
+    .ROWW{
+        display: flex;  
+        flex-direction:row;
+        justify-content: left
+    }
+    .ThreeIMG{
+        margin-bottom: -5%;
+        width:30%;
+        height:30%;
+    }
+    .IconRow{
+        display: flex;
+        gap: 5%;
+        margin-left: 5%;
+    }
+
+
+    .LowWidthNone{
+        display: none;
+    }
+}
